@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logo2.png"></a>
+        <h1>Mi papeleria creativa</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="somos.html">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de Productos</h1>
+        <div class="catalogo">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="catalago/imagen9.jpg" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>Producto 1</h2>
+                    <p>Los borradores tipo lápiz permiten borrar con precisión gracias a su punta fina y diseño ergonómico.</p>
+                    <p class="precio">$30.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="catalago/imagen10.jpg" alt="Producto 2">
+                <div class="producto-info">
+                    <h2>Producto 2</h2>
+                    <p>Sacapunta rosa con recojedor de basura practico.</p>
+                    <p class="precio">$45.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="catalago/imagen11.jpg" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>Producto 3</h2>
+                    <p>Paquetes de hojas blancas de alta calidad, ideales para impresión, escritura y dibujo. Disponibles en diferentes gramajes y tamaños.</p>
+                    <p class="precio">$30.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="catalago/imagen14.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Producto 4</h2>
+                    <p>Cartulinas de colores vibrantes, resistentes y versátiles, ideales para manualidades, proyectos escolares y decoraciones.</p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="catalago/imagen12.jpg" alt="Producto 5">
+                <div class="producto-info">
+                    <h2>Producto 5</h2>
+                    <p>Marcatextos en colores pastel y luminosos, ideales para resaltar textos con suavidad o intensidad, ofreciendo un acabado limpio y llamativo.</p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="catalago/imagen15.jpg" alt="Producto 6">
+                <div class="producto-info">
+                    <h2>Producto 6</h2>
+                    <p>Set de 24 piezas en diversos colores, perfectas para proyectos creativos, manualidades o usos escolares.</p>
+                    <p class="precio">$195.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="catalago/imagen13.jpg" alt="Producto 7">
+                <div class="producto-info">
+                    <h2>Producto 7</h2>
+                    <p>Cuadernos profesionales costurados, disponibles en varios colores, ideales para tomar notas y organización, con encuadernación resistente.</p>
+                    <p class="precio">$125.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="catalago/imagen16.jpg" alt="Producto 8">
+                <div class="producto-info">
+                    <h2>Producto 8</h2>
+                    <p>Set de 12 plumones de colores vibrantes, ideales para dibujar, colorear y resaltar, con punta fina y de fácil aplicación.
+
+.</p>
+                    <p class="precio">$215.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+   <footer>
+    <p>&copy; 2024 Mi empresa. Todos los derechos reservados.</p>
+    <div class="redes-sociales">
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="https://www.facebook.com/mipapeleriacreativa" target="_blank">Facebook: @MiPapeleriaCreativa</a> |
+        <a href="https://twitter.com/mipapeleriacreativa" target="_blank">Twitter: @PapeleriaCreativa</a> |
+        <a href="https://www.instagram.com/mipapeleriacreativa" target="_blank">Instagram: @mipapeleriacreativa</a>
+    </div>
+    <p>Contacto: info@tuempresa.com</p>
+</footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>

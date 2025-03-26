@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes Somos</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Sección Encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logo2.png" alt="Logo de la papelería"></a>
+        <h1>Mi Papelería Creativa</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="quienes-somos.html">¿QUIÉNES SOMOS?</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal -->
+    <main>
+        <!-- Sección Quiénes Somos -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagenes/imagen1.jpg" alt="Interior de la papelería" width="300" height="300">
+            </div>
+            <div class="derecha">
+                <h2>¿QUIÉNES SOMOS?</h2>
+                <p>Somos una papelería comprometida con la creatividad y el aprendizaje, ofreciendo productos de alta calidad a precios accesibles.</p>
+            </div>
+        </section>
+
+        <!-- Sección Misión y Visión -->
+        <section id="mision-vision">
+            <h2>Nuestra Filosofía</h2>
+            <div class="catalogo">
+                <!-- Misión -->
+                <div class="producto">
+                    <div class="producto-info">
+                        <h2>Misión</h2>
+                        <p>Brindar a nuestros clientes productos innovadores y de calidad, fomentando la creatividad en niños, jóvenes y adultos.</p>
+                    </div>
+                </div>
+                <!-- Visión -->
+                <div class="producto">
+                    <div class="producto-info">
+                        <h2>Visión</h2>
+                        <p>Ser la papelería líder en productos creativos, expandiendo nuestra presencia en diversas regiones del país.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- Sección de Multimedia -->
+<section id="multimedia">
+    <h2>Explora nuestro contenido multimedia</h2>
+
+    <!-- Reproductor de Audio -->
+    <div class="audio">
+        <h3>Escucha nuestro anuncio</h3>
+        <audio controls autoplay>
+            <source src="audio/mrska.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </div>
+
+    <!-- Reproductor de Video -->
+    <div class="video">
+        <h3>Conoce más sobre nuestra papelería</h3>
+        <video controls autoplay loop muted width="500">
+            <source src="video/papelería creativa.mp4" type="video/mp4" wi>
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+</section>
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="izquierda">
+                <h2>Servicios y Precios</h2>
+                <ul>
+                    <li>Lapiceros: $15</li>
+                    <li>Libretas: $25</li>
+                    <li>Calculadoras: $235</li>
+                    <li>Plumones: desde $20</li>
+                </ul>
+            </div>
+            <div class="derecha">
+                <img src="imagenes/imagen4.jpg" alt="Diferentes productos de la papelería" width="300" height="300">
+            </div>
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>Nuestras Marcas</h2>
+            <div class="brands">
+                <img src="imagenes/imagen6.jpg" alt="Marca 1" width="300" height="300">
+                <img src="imagenes/imagen7.jpg" alt="Marca 2" width="300" height="300">
+                <img src="imagenes/imagen8.jpg" alt="Marca 3" width="300" height="300">
+                <img src="imagenes/imagen2.jpg" alt="Marca 4" width="300" height="300">
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+   <footer>
+    <p>&copy; 2024 Mi empresa. Todos los derechos reservados.</p>
+    <div class="redes-sociales">
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="https://www.facebook.com/mipapeleriacreativa" target="_blank">Facebook: @MiPapeleriaCreativa</a> |
+        <a href="https://twitter.com/mipapeleriacreativa" target="_blank">Twitter: @PapeleriaCreativa</a> |
+        <a href="https://www.instagram.com/mipapeleriacreativa" target="_blank">Instagram: @mipapeleriacreativa</a>
+    </div>
+    <p>Contacto: info@tuempresa.com</p>
+</footer>
+
+    <!-- Script para el menú en móviles -->
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
